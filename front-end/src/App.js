@@ -16,8 +16,8 @@ const service=[
   },
   {
       id: 2,
-      icon: "Front-end Engineering",
-      title: "Teaching",
+      icon: "ICON",
+      title: "Front-end Engineering",
       content:"Let me help you on the core task now, validate the design solution,collect your own data understand your users, and don't just copy your competit."
   },
   {
@@ -36,14 +36,7 @@ const service=[
   return(
     
    <div> 
-  
-  
-     <Routes>
-        <Route path="/" element={<Services services={service}/>}/>
-        <Route path="/service" element={<Service/>}/>
-        
-     </Routes>
-     
+        <Services services={service}/>
    </div>
 
 
