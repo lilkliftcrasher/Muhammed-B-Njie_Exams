@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family:  
+    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(11, 13, 32);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.service-body{
+  background-color: rgb(11, 13, 32);
+  color: white;
+  font-size: 1rem;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 2rem 4rem;
+  line-height: 1.5;
+}
+.service-header h1{
+  display: flex;
+}
+.service-header h1 div{
+  background-color: rgb(243, 211, 0);
+  width: 2.9rem;
+ height: 3px;
+ margin: 0;
+ margin-top: 1.5rem;
+ 
+  
+}
+.service-boxes{
+  height: 32%;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 2%;
+  margin: 2rem 0rem;
+  margin-top: 4rem;
+}
+
+.service-boxe{
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+  background-color: rgb(26, 27, 50);
+
+}
+.service-boxe:hover{
+  border: 2px solid rgb(243, 211, 0);
+}
+.service-footer{
+  text-align: center;
+  margin-top: 4rem;
+}
+.service-footer a{
+  text-decoration: none;
+  margin: 0rem 1rem;
+  padding: .5rem 1rem;
+  border-radius: 25px;
+}
+.service-footer-learn{
+  color: white;
+  border: 1px solid rgb(243, 211, 0);
+}
+.service-footer-hire{
+  background-color: rgb(243, 211, 0);
+  color: black;
+  font-weight: bold;
+}
